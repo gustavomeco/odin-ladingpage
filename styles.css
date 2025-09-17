@@ -81,10 +81,13 @@ a {
     border-radius: 10px;
 }
 
-.section {
+.section,.quotesection{
     display:flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
+}
+
+.section {
     height: 400px;
 }
 
@@ -109,4 +112,28 @@ a {
 .imgborder {
     border: 2px solid #3882F6;
     border-radius: 10px;
+}
+
+.quotesection {
+    height: 350px;
+    padding: 32px;
+    background-color: #E5E7EB;
+    justify-content: center;
+}
+
+.quotetext {
+    font-size:36px;
+    color:rgb(90, 90, 90);
+}
+
+#quoteactor {
+    font-size:24px;
+    color:#1F2937;
+    font-weight: 900;
+    margin-left: 300px;
+}
+
+.quote {
+    width: 600px;
+    gap: 12px;
 }
