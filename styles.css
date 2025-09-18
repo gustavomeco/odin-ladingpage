@@ -17,8 +17,9 @@ a {
     color: #E5E7EB;
 }
 
-.header {
+.header,.footer{
     display:flex;
+    min-height: 60px;
     background: #1F2937;
     padding: 12px;
     justify-content: space-around;
@@ -39,7 +40,7 @@ a {
 }
 
 .content {
-    flex: 1;
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
 }
@@ -182,4 +183,8 @@ a {
 
 .ctadesc {
     font-size: 14px;  
+}
+
+.footertext {
+    color: #F9FAF8;
 }
