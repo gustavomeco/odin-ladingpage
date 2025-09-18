@@ -62,18 +62,19 @@ a {
     gap: 8px;
 }
 
-#heromain {
+.herotext div{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
 }
 
-#herosec {
+.herotext p {
+    margin: 0;
     font-size: 18px;
     color: #E5E7EB;
 }
 
-#herobutton {
+.herotext button {
     background-color: #3882F6;
     color: #F9FAF8;
     padding: 8px 16px;
@@ -110,7 +111,7 @@ a {
     color:rgb(90, 90, 90);
 }
 
-.imgborder {
+.info img {
     border: 2px solid #3882F6;
     border-radius: 10px;
 }
@@ -122,22 +123,23 @@ a {
     justify-content: center;
 }
 
-.quotetext {
+.quote {
+    width: 600px;
+    gap: 12px;
+}
+
+.quote p{
     font-size:36px;
     color:rgb(90, 90, 90);
 }
 
-#quoteactor {
+.quote div{
     font-size:24px;
     color:#1F2937;
     font-weight: 900;
     margin-left: 300px;
 }
 
-.quote {
-    width: 600px;
-    gap: 12px;
-}
 
 .ctasection {
     height: 300px;
@@ -166,7 +168,7 @@ a {
     width: 400px;
 }
 
-.ctabutton {
+.ctacontainer button {
     background-color: #3882f6;
     color: white;
     padding: 8px 16px;
@@ -176,15 +178,17 @@ a {
     height: 40px;
 }
 
-.cta {
+.ctatext div {
     font-size: 24px;
     font-weight: 900;
 }
 
-.ctadesc {
+.ctatext p {
+    margin: 0;
     font-size: 14px;  
 }
 
-.footertext {
+.footer {
     color: #F9FAF8;
+    margin-top: auto;
 }

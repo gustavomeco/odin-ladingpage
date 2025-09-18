@@ -1,3 +1,10 @@
-# odin-landingpage
-In this Project i will test my Html,Css and Flexbox skills. Im using this project to develop and practice my skills
-- This landing page is going to be for a Car Dealership
+# Car Dealership Landing Page
+
+This project is an exercise from The Odin Project
+, aimed at improving my skills in HTML, CSS, and Flexbox. The main goal is to practice and refine my front-end development abilities while creating a responsive landing page for a car dealership.
+
+## Technologies Used
+
+- HTML
+
+- CSS - (Flexbox)
